@@ -22,15 +22,15 @@ isbn = ''       # isbn 검색
 publ = '길벗'   # 출판사 검색 
 dafr = ''       # 출간 시작일 ex.20000203
 dato = ''       # 출간 종료일
-catg = ''       # 책 검색 카테고리 / 카테고리 목록은 네이버 개발자 사이트 가서 확인하세요.
+catg = '160'       # 책 검색 카테고리 / 카테고리 목록은 네이버 개발자 사이트 가서 확인하세요.
 
-with open ('book_list_gil.csv', 'w', newline='', encoding='utf-8') as f:
+with open ('book_list_gil_160.csv', 'w', newline='', encoding='utf-8') as f:
 
     fieldnames = ('isbn', 'title', 'image URL', 'description')
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()  
 
-    for start_num in range(0, 10):
+    for start_num in range(1):
 
         start = (start_num*100) + 1
     

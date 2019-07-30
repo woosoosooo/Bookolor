@@ -15,3 +15,8 @@ NAVER_CLIENT_SECRET='니 클라이언트 시크릿'
 
 ### v1, v2 모두 똑같이 작동하지만 v1을 추천함
 
+### python 3.7 이상
+
+### pip install
+
+python-decouple, OpenCV-python, OpenCV-contrib-python, requests
