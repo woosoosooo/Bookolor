@@ -61,6 +61,27 @@ NAVER_CLIENT_SECRET='니 클라이언트 시크릿'
 
 ### python 3.7 이상
 
-### pip install
+## 3.  pip install
 
-python-decouple, OpenCV-python, OpenCV-contrib-python, requests
+python-decouple, 
+
+OpenCV-python, 
+
+OpenCV-contrib-python, 
+
+requests, 
+
+scikit-learn,
+
+matplotlib
+
+
+
+## 4. 파일 실행순서
+
+collectbook_v1.py 
+
+collectcover.py
+
+searchcover.py
+
